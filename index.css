@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Inter", sans-serif;
+    background-color: #1C1C1C;
+
+}
+
+#app{
+  width: 550px;
+  margin: 126px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#hero{
+  margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     height: 285px;
+     width: 550px;
+    
+    background-color: #6943FF;
+
+
+}
+
+h1{
+  color: #FFFFFF;
+  font-size: 28px;
+  line-height: 38px;
+}
+
+h2{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+    color: #CCC1FF;
+    font-size: 20px;
+    line-height: 20px;
+    margin-bottom: 16px;
+
+}
+
+p {
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  min-height: 20px;
+  margin: 0 0 11px 0 ;
+}
+
+#input-container{
+  margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#input-el{
+      font-family: "Inter", sans-serif;
+
+  font-weight: 800;
+  font-size: 58px;
+  width: 117px;
+  height: 83px;
+  border-radius: 5px;
+   border: 2px solid #B295FF;
+   text-align: center;
+   background-color: #6943FF;
+   color: #FFFFFF;
+}
+
+#results-section{
+width: 550px;
+padding: 12px 0;
+background-color: #1F2937;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.result-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #273549;
+    width: 500px;
+    height: 109px;
+    margin: 12px 10px;
+    
+}
+
+.divider{
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  background-color: #6b6f99;
+  margin: 0 8px;
+  vertical-align: middle;
+    
+}
+
+button {
+    border: none;
+    padding: 9px 27px;
+    background-color: #FFFFFF;
+    color: #3D3D3D;
+    margin-bottom: 34px;
+    margin-top: 26px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  /* font-family: "Inter", sans-serif; */
+
+}
+

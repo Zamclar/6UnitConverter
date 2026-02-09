@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <title>Metric/Imperial Unit Conversion</title>
+
+    </head>
+    <body>
+        <main id="app">
+            <section id="hero">
+                <h1>Metric/Imperial Unit Conversion</h1>
+                <div id="input-container">
+                    <!-- <input type="text" id="input-el"  step="any" min="0">  -->
+                    <input type="text" id="input-el" placeholder="20">
+                    <button id="convert-btn">Convert</button>
+                </div>    
+             </section>
+            
+             <section id="results-section">
+                <div class="result-container">
+                    <h2>Length (Meter/Feet)</h2>
+                    <p class="result-txt" id="result-length"><span class="divider"></span></p>
+                
+                </div>
+            
+                <div class="result-container">
+                <h2>Volume (Liters/Gallons)</h2>
+                <p class="result-txt" id="result-volume"><span class="divider"></span></p>
+                    
+                </div>
+                
+                <div class="result-container">
+                
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p class="result-txt" id="result-mass"><span class="divider"></span></p>
+            
+                </div>
+            </section>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
